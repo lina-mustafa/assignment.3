@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atma&display=swap" rel="stylesheet">
+
+<style>
+#myDIV {
+  background-image: url(https://media.istockphoto.com/id/1150098746/vector/movie-theater-interior-cinema-audience-crowd-watching-film-sitting-in-rows-of-red.jpg?s=170667a&w=0&k=20&c=wMkblC5KXj-IrhTZIz8XhucVauRceJGHRzrVHGkAE7k=);
+  background-repeat: no-repeat;
+  /*background-size: 1300px;*/
+  background-size:cover;
+  height: 700px;
+  margin: 0px;
+  height: auto;
+}
+
+</style>    
+</head>
+
+<body>
+    <div id="myDIV">
+    <h2>Movie Library &#127916</h2>
+    <label for="Movies">Select A Movie. </label>
+    <br></br>
+    <p7>Then, click the "Get" button to recieve more info.</p7>
+    <br></br>
+    <select name="Movies" id="Movies">
+    <option value="Friday">Friday</option>
+    <option value="Next Friday">Next Friday</option>
+    <option value="Friday After Next">Friday After Next</option>
+    <option value="White Chicks">White Chicks</option>
+    <option value="10 Things I Hate About You">10 Things I Hate About You</option>
+    <option value="Superbad">Superbad</option>
+    <option value="Little Man">Little Man</option>
+    <option value="Scary Movie">Scary Movie</option>
+    <option value="Mean Girls">Mean Girls</option>
+    <option value="21 Jump Street">21 Jump Street</option>
+    </select>
+    <!--<input id=get type="button" value="Get">-->
+    <button id="get" onclick="myFunction()">Get</button>
+    <div id="div1"></div>
+    </div>
+
+<script>
+    function myFunction() {
+    document.getElementById("myDIV").style.backgroundImage = "url(https://www.xmple.com/wallpaper/black-grey-gradient-linear-1920x1080-c2-000000-d3d3d3-a-90-f-14.svg)";
+}
+</script>
+</body>
+</html>
